@@ -378,8 +378,8 @@ x
 
 names = np.array(['Bob', 'Joe', 'Will', 'Bob', 'Will', 'Joe', 'Joe'])
 data = np.random.randn(7, 4)
-data[names != ("Will" and "Joe")] = 0
-data
+x = data[names != ("Will" and "Joe")]
+x
 
 
 # Difficulty Level **Hard**
